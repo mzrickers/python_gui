@@ -1,3 +1,5 @@
+### App to automatically open up apps to increase workflow
+
 import tkinter as tk
 from tkinter import filedialog, Text
 import os
@@ -38,6 +40,10 @@ openFile.pack()
 
 runApps = tk.Button(root, text="Run Apps", padx=10, pady=5, fg="gray", bg="#263D42", command="runApps")
 runApps.pack()
+
+for app in apps:
+    label = tk.Label(frame, text=app)
+    label.pack()
 
 root.mainloop()
 
