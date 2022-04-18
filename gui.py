@@ -1,4 +1,5 @@
 ### App to automatically open up apps to increase workflow
+### Probably need to update since over 2 years old
 
 import tkinter as tk
 from tkinter import filedialog, Text
