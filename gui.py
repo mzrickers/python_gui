@@ -5,6 +5,12 @@ import os
 root = tk.Tk()
 apps = []
 
+if os.path.isfile('save.txt'):
+    with open('save.txt', 'r') as f:
+        tempApps = f.read()
+        tempApps = tempApps.split(',')
+        apps = [x for x in tempApps if x.strip()]
+
 def addApp():
 
     for widget in frame.winfo_children():
