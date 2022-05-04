@@ -1,6 +1,7 @@
 ### App to automatically open up apps to increase workflow
 ### Probably need to update since over 2 years old
 ### Tomorrow will help Ty with his python app
+### Worked with the bash_file today with pip
 
 import tkinter as tk
 from tkinter import filedialog, Text
